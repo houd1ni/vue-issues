@@ -1,0 +1,27 @@
+{
+  "name": "front",
+  "version": "0.0.1",
+  "author": "CyberParrot co ltd.",
+  "scripts": {
+    "dev": "vite . --host",
+    "vite-prune": "powershell -C  rm -r node_modules/.vite",
+    "lint": "eslint --ext=vue ."
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/node": "^18.14.1",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "@vue/compiler-sfc": "^3.3.0-alpha.4",
+    "@vuedx/typescript-plugin-vue": "^0.7.6",
+    "rollup-plugin-named-directory": "^1.0.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vite-plugin-rewrite-all": "^1.0.1"
+  }
+}
